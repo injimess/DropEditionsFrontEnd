@@ -13,7 +13,6 @@ const routes: Routes = [
   { path: 'psthree', component : PsthreeComponent},
   { path: 'authform', component : AuthformComponent},
 
-
 ];
 
 @NgModule({
