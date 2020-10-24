@@ -24,12 +24,11 @@ export class PsoneComponent implements OnInit {
       this.sectionService.getStockTickers(this.date,element).subscribe((result:any) => 
       {
         var ticker = {} as Ticker;
-        console.log('myelement'+element);
         ticker.symbol = result.data[0].symbol;
         ticker.close=result.data[0].close;
-        console.log('mytcker'+ticker);
+        console.log(ticker);
         this.tickers.push(ticker);
-        console.log('mytickers'+this.tickers);
+        console.log(this.tickers);
       })
       
     }
