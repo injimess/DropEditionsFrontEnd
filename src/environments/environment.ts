@@ -7,6 +7,7 @@ export const environment = {
 };
 
 export const authUrl = 'http://localhost:8080/api/auth/signin'
+export const firstSectionUrl ='http://api.marketstack.com/v1/eod/2020-01-03?access_key=8918ed0659e42fa86d2cef9852354724&symbols=MSFT&exchange=XNAS'
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
